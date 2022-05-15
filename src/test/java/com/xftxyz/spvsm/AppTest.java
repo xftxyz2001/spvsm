@@ -2,10 +2,6 @@ package com.xftxyz.spvsm;
 
 import static org.junit.Assert.assertTrue;
 
-import java.util.Map;
-
-import com.xftxyz.spvsm.controller.activity.FileUtil;
-
 import org.junit.Test;
 
 /**
@@ -24,11 +20,11 @@ public class AppTest {
     public void configReadTest() {
         // System.out.println("asdfasdfa");
         try {
-            Map<String, String> map = FileUtil.readIniFile();
-            // 遍历map
-            for (Map.Entry<String, String> entry : map.entrySet()) {
-                System.out.println(entry.getKey() + ":" + entry.getValue());
-            }
+            // Map<String, String> map = FileUtil.readIniFile();
+            // // 遍历map
+            // for (Map.Entry<String, String> entry : map.entrySet()) {
+            // System.out.println(entry.getKey() + ":" + entry.getValue());
+            // }
         } catch (Exception e) {
             e.printStackTrace();
 
